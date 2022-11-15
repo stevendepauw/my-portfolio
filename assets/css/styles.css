@@ -3,6 +3,7 @@ body {
     color: #641111;
     font-size: 1.25rem; 
     display: grid;
+    grid-template-rows: auto;
 }
 
 /* Nav Bar */
@@ -23,12 +24,21 @@ body {
 
 /* About Me */
 .about-me {
-    max-width: 30em;
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.about-me-container {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    max-width: 30em;
+    align-items: center;
     text-align: center;
-    margin: auto;
+}
+
+.about-me img {
+    max-width: 8em;
 }
 
 .about-me-item {
@@ -37,17 +47,45 @@ body {
 
 /* Main */
 
+.project-info-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+}
+
+.display-project {
+    display: flex;
+    max-width: 60em;
+    padding: 1em;
+    flex: 1 1;
+}
+
+.other-projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 35em;
+    gap: 1em;
+    align-items: center;
+    border: 0px;
+}
+
+.other-projects img {
+    max-width: 15em;
+}
 
 /* Footer */
 .contact-info {
-    justify-items: end;
+    align-self: end;
     margin-bottom: 0;
+    margin-top: 2em;
 }
 
-/* .contact-info-container {
-    display: flex;
-    align-items: flex-start;
-} */
+.contact-info-container {
+    align-items: end;
+}
 
 .contact-info-items {
     display: flex;
