@@ -13,9 +13,9 @@
     <header>
         <nav>
             <ul class="nav-bar">
-                <li><a href="">Home</a></li>
-                <li><a href="">Work</a></li>
-                <li><a href="">Contact Me</a></li>
+                <li><a href="#about-me-description">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
                 <li><a href="">Resume</a></li>
             </ul>
         </nav>
@@ -25,39 +25,56 @@
                 <img class="about-me-item" src="./assets/images/placeholder-selfie.webp" alt="picture of me"/>
                 <h1 class="about-me-item">Steven DePauw</h1>
                 <h2 class="about-me-item">Web Developer</h2>
-                <p class="about-me-item">
-                    Filler info until i actually put the about me information in. Enough to get an idea of how itll look on the page. Filler info until i actually put the about me information in. Enough to get an idea of how itll look on the page. Filler info until i actually put the about me information in. Enough to get an idea of how itll look on the page.
+                <p id="about-me-description" class="about-me-item">
+                    I got my first look at any kind of web development from seeing some classmates messing around with it when I first started college and have been hooked on it since. Its something I have familiarity with but right now I am currently enrolled in a full stack development course to enhance my skillset and polish some skills. The goal is to come out of the course with the knowledge and skills I need to put myself in the right position to get a career started in the web development scene.
                 </p>
-        </div>
+            </div>
         </section>
     </header>
 
     <main>
         <!--Big showpiece image of most impressive work made larger to stand out. Put in its own area so it was easier to style without having to add a whole lot to poition it if grouped with the other images. -->
         
-        <section class="project-info-container">
+        <section id="work" class="project-info-container">
             <div class="display-project">
-                <img id="showpiece"src="./assets/images/placeholder-project.webp" alt="Description of project" />
+                <h3>Code Refactor</h3>
+                <a href="https://github.com/stevendepauw/Drying-Up-Code"> <img id="showpiece" src="./assets/images/showcase-project.avif" alt="Description of project" /></a>
             </div>
         <!--Other projects grouped together after the main display project -->    
             <div class="other-projects">
-                <img class="project-info-item" id="" src="./assets/images/placeholder-project.webp" alt="Description of project" />
-                <img id="" src="./assets/images/placeholder-project.webp" alt="Description of project" />
-                <img id="" src="./assets/images/placeholder-project.webp" alt="Description of project" />
-                <img id="" src="./assets/images/placeholder-project.webp" alt="Description of project" />
+                <div>
+                    <h3>Future Project</h3>
+                    <img class="project-info-item" id="" src="./assets/images/placeholder-coming-soon.webp" alt="Description of project" />
+                </div>
+
+                <div>
+                    <h3>Future Project</h3>
+                    <img id="" src="./assets/images/placeholder-coming-soon.webp" alt="Description of project" />
+                </div>
+
+                <div>    
+                    <h3>Future Project</h3>
+                    <img id="" src="./assets/images/placeholder-coming-soon.webp" alt="Description of project" />
+                </div>
+
+                <div>
+                    <h3>Future Project</h3>
+                    <img id="" src="./assets/images/placeholder-coming-soon.webp" alt="Description of project" />
+                </div> 
             </div>
         </section>
     </main>
 
-    <footer class="contact-info">
+    <footer id="contact-me" class="contact-info">
         <div class="contact-info-container">
             <ul class="contact-info-items">
-                <li>phone</li>
-                <li>email</li>
-                <li>github</li>
+                <li>Linkedin</li>
+                <li><a href="https://github.com/stevendepauw" > github </a></li>
+                <li>stevendepauw@rocketmail.com</li>
             </ul>
         </div>
     </footer>
 </body>
+
 
 </html>
