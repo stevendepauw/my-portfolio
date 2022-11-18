@@ -1,11 +1,10 @@
 body {
-    background-color: #F4F4F4 ;
+    background-color: #F4F4F4;
     color: #641111;
     font-size: 1.25rem; 
     display: grid;
     grid-template-rows: auto;
-    /* background: url(../images/main-background.avif);
-    background-size: 100% 100%; */
+    overflow-x: hidden;
 }
 
 nav {
@@ -44,6 +43,7 @@ nav {
     flex: 1 1 initial;
     margin: auto;
     line-height: 1.5rem;
+    padding: 2rem;
 }
 
 .about-me img {
@@ -98,6 +98,7 @@ nav {
     align-self: end;
     margin-bottom: 0;
     margin-top: 2rem;
+    background-color: white;
 }
 
 .contact-info-container {
@@ -107,7 +108,6 @@ nav {
 .contact-info-items {
     display: flex;
     justify-content: center;
-    background-color: white;
     color: #641111;
     padding: 1rem 2rem;
     gap: 1rem;
